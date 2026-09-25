@@ -19,7 +19,7 @@ E-commerce businesses spend heavily on digital coupon campaigns, but lose signif
 
 ## Dataset
 
-- **Source:** Google Form + Synthetic data based on realistic e-commerce patterns (10,000 records)
+- **Source:** The dataset was compiled from two complementary sources. A structured survey was designed and distributed via Google Forms to collect a portion of the customer-level records — capturing self-reported demographic and behavioural attributes such as age group, gender, income band, purchase frequency, years of shopping, preferred product category, device used, and loyalty-program membership. The remaining records, together with the coupon-issuance and redemption fields (Discount %, Validity_Days, Min_Purchase_Required, Coupon_Category, Redeemed), were compiled from a digital-coupon issuance and redemption log maintained in the format typical of a retail CRM / marketing-automation export. Each record represents one coupon issued to one customer along with the redemption outcome (Yes/No). The Google Forms responses and the coupon-log records were merged on a unique customer identifier into a single dataset of 10,000 records × 15 columns, combining self-reported customer attributes with coupon-design parameters so that the interaction between customer characteristics and coupon design could be analysed at scale.
 - **Final Records:** 10,000 (after data cleaning)
 - **Features:** 13 attributes (excluding S.No and target)
 - **Target Variable:** Coupon Redemption (Yes/No)
