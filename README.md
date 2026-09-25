@@ -19,7 +19,7 @@ E-commerce businesses spend heavily on digital coupon campaigns, but lose signif
 
 ## Dataset
 
-- **Source:** Synthetic data based on realistic e-commerce patterns (10,000 records)
+- **Source:** Google Form + Synthetic data based on realistic e-commerce patterns (10,000 records)
 - **Final Records:** 10,000 (after data cleaning)
 - **Features:** 13 attributes (excluding S.No and target)
 - **Target Variable:** Coupon Redemption (Yes/No)
