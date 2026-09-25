@@ -170,29 +170,6 @@ Validity days (9.20%) and minimum purchase required (7.39%) both significantly i
    - Target: 55-60% redemption
    - Estimated improvement: +12-17% more coupons redeemed
 
-## Files Included
-
-- `README.md` – This file; case study overview
-- `Case_Study_Report.pdf` – Detailed 5-7 page report
-- `analysis.ipynb` – Complete Jupyter notebook with all analysis
-- `data/` – Dataset folder containing raw and cleaned data
-  - `raw_dataset.xlsx` – Original dataset (10,000 records, 15 columns)
-  - `cleaned_dataset.csv` – Cleaned dataset (10,000 records, 15 columns)
-- `results/` – Model outputs
-  - `model_comparison.csv` – Model performance metrics
-  - `feature_importance.csv` – Feature importance scores
-- `viz/` – 10 analysis visualizations
-  - `01_redemption_distribution.png`
-  - `02_age_distribution.png`
-  - `03_discount_distribution.png`
-  - `04_validity_distribution.png`
-  - `05_discount_vs_redemption.png`
-  - `06_category_vs_redemption.png`
-  - `07_frequency_vs_redemption.png`
-  - `08_correlation_heatmap.png`
-  - `09_model_comparison.png`
-  - `10_feature_importance.png`
-
 ## Conclusion
 
 This case study successfully demonstrates that coupon redemption is predictable through machine learning. The Random Forest model achieves 60% accuracy—significantly better than the 39.4% baseline—providing practical value for business applications.
