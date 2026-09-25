@@ -32,7 +32,7 @@ E-commerce businesses spend heavily on digital coupon campaigns, but lose signif
 ## Methodology
 
 ### Data Preparation
-- Handled 119 missing values (filled using mode for categorical, median for numerical)
+- Handled missing values (filled using mode for categorical, median for numerical)
 - Standardized categorical values (fixed case inconsistencies in Gender, Device_Used, Purchase_Frequency, etc.)
 - Removed invalid records (invalid discounts, negative validity, negative purchase values)
 - Final clean dataset: 10,000 records
